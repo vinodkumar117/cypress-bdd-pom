@@ -1,0 +1,25 @@
+{
+  "name": "nagp-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --record --key 0e0ae350-16fd-448a-90ea-f65dcb010e72"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/e2e/BDD/stepDefinitions/*.js",
+    "nonGlobalStepDefinitions": true
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^12.13.0",
+    "cypress-mochawesome-reporter": "^3.5.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^17.2.1",
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "chai-json-schema": "^1.5.1"
+  }
+}
