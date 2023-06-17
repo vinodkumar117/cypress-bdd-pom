@@ -22,7 +22,7 @@ Test Folders -
 	4. Fixtures. JSON files under this contains test data -->./cypress/fixtures/
 	
 	
-How to run-
+How to run -
 	1. To run using tags : npx cypress run -e TAGS='@smoke'
 	2. To run in cypress open dashboard mode, run following command and select the feature files : npx cypress open
 	3. To run from command line: npm run test
