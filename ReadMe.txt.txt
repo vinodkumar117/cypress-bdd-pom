@@ -29,7 +29,7 @@ How to run -
 	4. To run in headless mode: npx cypress run
 	
 	
-Test Reports -
+Test Report-
 	1. html test report is available under -->./cypress/reports/html
 	2. screenshots are available under -->	./cypress/screenshots/
 	
