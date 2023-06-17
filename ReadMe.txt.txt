@@ -5,7 +5,7 @@ Description - It's a BDD framework. It covers both UI and API cases.
 
 prerequisites -
 	1. Node.js
-	2. VS code IDE
+	2. VS code 
 
 How to Install dependencies-
 	1. run following command in project folder : npm i
